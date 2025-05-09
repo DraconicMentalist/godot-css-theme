@@ -21,7 +21,7 @@ func _exit_tree():
 	remove_import_plugin(import_plugin)
 
 func _has_main_screen():
-	return true
+	return false
 
 func _get_plugin_name():
 	return "CSS"
